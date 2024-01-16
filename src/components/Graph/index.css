@@ -1,0 +1,306 @@
+.graph {
+  width: 100%;
+  height: 100%;
+  /* position: fixed; */
+  /* z-index: 100; */
+  /* left: 0;
+    top: 0; */
+}
+
+.buildingLabel {
+  width: 600px;
+  height: 600px;
+  background: rgba(0, 0, 0, 0) url(/textures/label.png);
+  background-size: cover;
+}
+
+.labelName {
+  width: 600px;
+  height: 510px;
+  vertical-align: middle;
+  display: table-cell;
+  color: #83FFFD;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 40px;
+  font-variant: tabular-nums;
+  font-feature-settings: "tnum";
+  font-family: SourceHanSerifCN-Heavy, SourceHanSerifCN;
+  text-align: center;
+}
+.entCircle{
+  cursor: pointer;
+}
+.linePoint{
+  cursor: pointer;
+}
+#moveLeft {
+  position: absolute;
+  width: 200px;
+  height:  100%;/*var(--graphDivHeightStyle);
+  /* top: 0px; */
+  background-color: black;
+  left: 0px;
+}
+
+#moveRight {
+  position: absolute;
+  width: 200px;
+  height:  100%;/*var(--graphDivHeightStyle);*/
+  /* top: 0px; */
+  background-color: blue;
+  right: 0px;
+}
+#graphTimeAxisPanel{
+  float: left;
+  width: 100%;
+  height: calc(32% - 10px);
+  padding: 5px; 
+  border: solid rgb(200,200,200) 2px;
+  border-radius: 10px;
+  background-color: white;
+}
+.graph{
+  background-color:rgb(200, 200, 200);
+}
+#graphPanel{
+  float: left;
+  width: 100%;
+  height: calc(70% + 40px);
+  padding: 5px; 
+  border: solid rgb(200,200,200) 2px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.editIcons{
+  width: 33px;
+  height: 20px;
+  margin: 0px;
+  margin-top: -4px;
+  cursor: pointer;
+}
+.editIcons2{
+  width: 42px;
+  height: 32px;
+  margin: 0px;
+  margin-right: 4px;
+  margin-top: -4px;
+  cursor: pointer;
+}
+.editIcons1{
+  width: 45px;
+  height: 20px;
+  margin: 0px;
+  margin-top: -4px;
+  cursor: pointer;
+}
+.editDelIcons{
+  width: 25px !important;
+  height: 25px !important;
+  margin-right: 15px;
+  margin-left: 7px;
+}
+#editDiv{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 205px;
+  height: 130px;
+  z-index: 1000000;
+  /*var(--graphDivHeightStyle);*/
+  /* top: 0px; */
+  background-color: #ffffff;
+  box-shadow: 1px 1px 5px 2px rgba(64, 158, 255, 0.3),5px 5px 5px 5px rgb(212, 218, 232);
+  /* right: 690px;
+  top:850px; */
+}
+#editAdd{
+  margin-top: 20px;
+  width: calc(100% - 20px);
+  margin: 15px 10px 15px 10px;
+  line-height: 100%;
+  cursor: pointer;
+  color: rgb(108, 180, 255);
+}
+#editAddN{
+  width: calc(100% - 20px);
+  margin: 10px;
+  color: rgb(108, 180, 255);
+  cursor: pointer;
+}
+#editDel{
+  width: calc(100% - 20px);
+  margin: 10px;
+  color: rgb(108, 180, 255);
+  cursor: pointer;
+  
+  border-top: solid rgb(223, 237, 255) 2px;
+  padding-top: 10px;
+}
+#assistGraphPanel{
+  position: absolute;
+  top: 733px;
+  right: 604px;
+  width: 489px;
+  height: 685px;
+  /*var(--graphDivHeightStyle);*/
+  /* top: 0px; */
+  background-color: #fff;
+  /* box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3),-10px 10px 10px 10px #fff; */
+  /* right: 690px;
+  top:850px; */
+}
+#editConfirm{
+  position: absolute;
+  bottom: 41px;
+  left: 1565px;
+  width: 19px;
+  height: 17px;
+  z-index: 100000000000000;
+  cursor: pointer;
+}
+.editConfirm{
+  width: 25px;
+  height: 25px;
+}
+#VideoEditPanel{
+  position: absolute;
+  top: 733px;
+  left: 678px;
+  width: 946px;
+  height: 553px;
+  z-index: 1000000000000;
+  /*var(--graphDivHeightStyle);*/
+  /* top: 0px; */
+  background-color: rgba(108, 180, 255,0.3);
+  /* box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3),-10px 10px 10px 10px #fff; */
+  /* right: 690px;
+  top:850px; */
+}
+
+/* .basicRel{
+  animation: dash 10s;
+  animation-iteration-count: infinite;
+  /*-webkit-animation: dash 10s;*/
+
+/* } */
+
+
+.activeS{
+  animation: dashS 20s ease;
+  animation-iteration-count: infinite;
+  /*-webkit-animation: dash 10s;*/
+        /* 3、动画执行速度 */
+  animation-timing-function:linear
+
+}
+.activeN{
+  animation: dashN 20s ease;
+  animation-iteration-count: infinite;
+  /*-webkit-animation: dash 10s;*/
+        /* 3、动画执行速度 */
+  animation-timing-function:linear
+
+}
+/* @-webkit-keyframes dash {
+  from {
+      stroke-dashoffset: 100%;
+  }
+  to {
+      stroke-dashoffset: 0;
+  }
+}*/
+
+@keyframes dashS {
+  from {
+      stroke-dashoffset: 80%;
+  }
+  to {
+      stroke-dashoffset: 50%;
+  }
+}
+@keyframes dashN {
+  from {
+      stroke-dashoffset: -20%;
+  }
+  to {
+      stroke-dashoffset: 50%;
+  }
+}
+#zoomInDiv{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 57px;
+  right: 520px;
+}
+#zoomOutDiv{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 57px;
+  right: 380px;
+}
+.icon{
+  width: 100%;
+  height: 100%;
+}
+#editToolDiv{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 57px;
+  right: 473px;
+}
+#tipDiv{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 275px;
+  right: 858px;
+}
+
+.tip{
+  width: 280px;
+  /* height: 20px; */
+  margin: 0px;
+  margin-top: -4px;
+  /* cursor: pointer; */
+}
+#loadLoadingPanel{
+  position: absolute;
+    width: 1650px;
+    height: 689px;
+    top: 52px;
+    left: 461px;
+    /* background: rgba(64, 158, 255, 0.3); */
+}
+#slidesUp{
+    width: calc(100% - 10px);
+    height: calc(50% - 40px);
+    z-index: 100;
+    left: 5px;
+    float: left;
+    position: absolute;
+    top: 60px;
+}
+#slidesDown{
+    width: calc(100% - 10px);
+    height: calc(50% - 40px);
+    z-index: 100;
+    left: 5px;
+    float: left;
+    position: absolute;
+    bottom: 5px;
+}
+
+#slidesBack{
+    width: 100%;
+    height: calc(100% - 50px);
+    z-index: 100;
+    float: left;
+    position: absolute;
+    background-color: #fff;
+    top: 50px;
+}
