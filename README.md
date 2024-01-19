@@ -8,9 +8,9 @@ The code for paper "ConceptThread: Visualizing Threaded Concepts in MOOC Videos"
 ![fig_dataVis](https://raw.githubusercontent.com/Clover-yee/ConceptThread/main/src/assets/img/teaser-revised-minor.png)
 
 
-> [**ConceptThread:**](http://128.84.21.203/abs/2303.03476)
+> [**ConceptThread: Visualizing Threaded Concepts in MOOC Videos**](http://128.84.21.203/abs/2303.03476)
 > 
-<!-- > Zhiguang Zhou, Li Ye, Lihong Cai, Lei Wang, Yigang Wang, Yongheng Wang, Wei Chen, and Yong Wang -->
+> Zhiguang Zhou, Li Ye, Lihong Cai, Lei Wang, Yigang Wang, Yongheng Wang, Wei Chen, and Yong Wang
 >
 > [[Paper](http://128.84.21.203/abs/2303.03476) || [Video](https://youtu.be/BjdByJ5BgxI)]
 
@@ -25,8 +25,8 @@ Massive Open Online Courses (MOOCs) platforms are becoming increasingly popular 
 
 ## ToDo
 - [ ] Improve the user interface:
-    - [ ] Select different games
-    - [ ] Legend
+    - [ ] Enable online edit mode
+    - [ ] Add support panel function
 - [ ] Release more cases data
 - [ ] Release the system pipeline
 - [ ] Better document the code
