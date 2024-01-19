@@ -1,24 +1,22 @@
 # ConceptThread
 The code for paper "ConceptThread: Visualizing Threaded Concepts in MOOC Videos"
 
-- **An system.**
-- **A web-based testbed for embedded visualization research.**
+- **An interactive MOOC video-watching system.**
+- **A threaded-based visualization for online learning**
 - **(only works on Desktop Chrome / Edge)**
 
-![fig_dataVis](.jpg)
+![fig_dataVis](https://raw.githubusercontent.com/Clover-yee/ConceptThread/main/src/assets/img/teaser-revised-minor.png)
 
 
 > [**ConceptThread:**](http://128.84.21.203/abs/2303.03476)
 > 
-<!-- > Chen Zhu-Tian, Qisen Yang, Jiarui Shan, Tica Lin, Johanna Beyer, Haijun Xia, and Hanspeter Pfister -->
-> 
-> _ACM Conference on Human Factors in Computing Systems, 2023_
+<!-- > Zhiguang Zhou, Li Ye, Lihong Cai, Lei Wang, Yigang Wang, Yongheng Wang, Wei Chen, and Yong Wang -->
 >
 > [[Paper](http://128.84.21.203/abs/2303.03476) || [Video](https://youtu.be/BjdByJ5BgxI)]
 
 
 ## Abstract
-We present iBall, a basketball video-watching system that leverages gaze-moderated embedded visualizations to facilitate game understanding and engagement of casual fans. Video broadcasting and online video platforms make watching basketball games increasingly accessible. Yet, for new or casual fans, watching basketball videos is often confusing due to their limited basketball knowledge and the lack of accessible, on-demand information to resolve their confusion. To assist casual fans in watching basketball videos, we compared the game-watching behaviors of casual and die-hard fans in a formative study and developed iBall based on the findings. iBall embeds visualizations into basketball videos using a computer vision pipeline, and automatically adapts the visualizations based on the game context and users’ gaze, helping casual fans appreciate basketball games without being overwhelmed. We confirmed the usefulness, usability, and engagement of iBall in a study with 16 casual fans, and further collected feedback from 8 die-hard fans.
+Massive Open Online Courses (MOOCs) platforms are becoming increasingly popular in recent years. Online learners need to watch the whole course video on MOOC platforms to learn the underlying new knowledge, which is often tedious and time-consuming due to the lack of a quick overview of the covered knowledge and their structures. In this paper, we propose ConceptThread, a visual analytics approach to effectively show the concepts and the relations among them to facilitate effective online learning. Specifically, given that the majority of MOOC videos contain slides, we first leverage video processing and speech analysis techniques, including shot recognition, speech recognition and topic modeling, to extract core knowledge concepts and construct the hierarchical and temporal relations among them. Then, by using a metaphor of thread, we present a novel visualization to intuitively display the concepts based on video sequential flow, and enable learners to perform interactive visual exploration of concepts. We conducted a quantitative study, two case studies, and a user study to extensively evaluate ConceptThread. The results demonstrate the effectiveness and usability of ConceptThread in providing online learners with a quick understanding of the knowledge content of MOOC videos.
 
 ## Install
 1. install `npm install`
@@ -29,9 +27,8 @@ We present iBall, a basketball video-watching system that leverages gaze-moderat
 - [ ] Improve the user interface:
     - [ ] Select different games
     - [ ] Legend
-- [ ] Release the gaze component
-- [ ] Release the 2nd game data
-- [ ] Release the CV pipeline
+- [ ] Release more cases data
+- [ ] Release the system pipeline
 - [ ] Better document the code
 
 ## Citation
