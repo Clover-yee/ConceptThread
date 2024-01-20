@@ -12,7 +12,7 @@ The code for paper "ConceptThread: Visualizing Threaded Concepts in MOOC Videos"
 > 
 > Zhiguang Zhou, Li Ye, Lihong Cai, Lei Wang, Yigang Wang, Yongheng Wang, Wei Chen, and Yong Wang
 >
-> [[Paper]() || [Video](https://youtu.be/BjdByJ5BgxI)]
+> [[Paper]() || [Video](https://youtu.be/4y2Y68n0JkA)]
 
 
 ## Abstract
