@@ -2,7 +2,7 @@
 The code for paper "ConceptThread: Visualizing Threaded Concepts in MOOC Videos"
 
 - **An interactive MOOC video-watching system.**
-- **A threaded-based visualization for online learning**
+- **A threaded-based visualization for concept map**
 - **(only works on Desktop Chrome / Edge)**
 
 ![fig_dataVis](https://raw.githubusercontent.com/Clover-yee/ConceptThread/main/src/assets/img/teaser-revised-minor.png)
@@ -12,7 +12,7 @@ The code for paper "ConceptThread: Visualizing Threaded Concepts in MOOC Videos"
 > 
 > Zhiguang Zhou, Li Ye, Lihong Cai, Lei Wang, Yigang Wang, Yongheng Wang, Wei Chen, and Yong Wang
 >
-> [[Paper](http://128.84.21.203/abs/2303.03476) || [Video](https://youtu.be/BjdByJ5BgxI)]
+> [[Paper]() || [Video](https://youtu.be/BjdByJ5BgxI)]
 
 
 ## Abstract
@@ -33,12 +33,5 @@ Massive Open Online Courses (MOOCs) platforms are becoming increasingly popular 
 
 ## Citation
 ```
-@CONFERENCE {chen2023iball,
-    title={iBall: Augmenting Basketball Videos with Gaze-moderated Embedded Visualizations},
-    author={Chen Zhu-Tian and Qisen Yang and Jiarui Shan and Tica Lin and Johanna Beyer and Haijun Xia and Hanspeter Pfister},
-    booktitle={Proceedings of the CHI Conference on Human Factors in Computing Systems},
-    year={2023},
-    month={apr},
-    publisher={ACM}
-}
+
 ```
