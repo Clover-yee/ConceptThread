@@ -8,11 +8,11 @@ The code for paper "ConceptThread: Visualizing Threaded Concepts in MOOC Videos"
 ![fig_dataVis](https://raw.githubusercontent.com/Clover-yee/ConceptThread/main/src/assets/img/teaser-revised-minor.png)
 
 
-> [**ConceptThread: Visualizing Threaded Concepts in MOOC Videos**]()
+> [**ConceptThread: Visualizing Threaded Concepts in MOOC Videos**](https://arxiv.org/abs/2401.11132)
 > 
 > Zhiguang Zhou, Li Ye, Lihong Cai, Lei Wang, Yigang Wang, Yongheng Wang, Wei Chen, and Yong Wang
 >
-> [[Paper]() || [Video](https://youtu.be/4y2Y68n0JkA)]
+> [[Paper](https://arxiv.org/abs/2401.11132) || [Video](https://youtu.be/4y2Y68n0JkA)]
 
 
 ## Abstract
@@ -33,5 +33,12 @@ Massive Open Online Courses (MOOCs) platforms are becoming increasingly popular 
 
 ## Citation
 ```
-
+@misc{zhou2024conceptthread,
+      title={ConceptThread: Visualizing Threaded Concepts in MOOC Videos}, 
+      author={Zhiguang Zhou and Li Ye and Lihong Cai and Lei Wang and Yigang Wang and Yongheng Wang and Wei Chen and Yong Wang},
+      year={2024},
+      eprint={2401.11132},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC}
+}
 ```
